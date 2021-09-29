@@ -1,0 +1,63 @@
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 106.73 100">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-9 {
+        isolation: isolate;
+        font-size: 7.61px;
+        fill: #fff;
+      }
+
+      .cls-2 {
+        font-family: Arial-BoldMT, Arial;
+        font-weight: 700;
+      }
+
+      .cls-3 {
+        fill: #d55e00;
+      }
+
+      .cls-4 {
+        fill: #f0e442;
+      }
+
+      .cls-5 {
+        fill: #e69f00;
+      }
+
+      .cls-6 {
+        fill: #0072b2;
+      }
+
+      .cls-7 {
+        fill: #56b4e9;
+      }
+
+      .cls-8 {
+        fill: #484e4e;
+      }
+
+      .cls-9 {
+        font-family: ArialMT, Arial;
+      }
+    </style>
+  </defs>
+  <g>
+    <text class="cls-2" transform="translate(0 15)">Region</text>
+    <rect class="cls-3" y="17.73" width="10.9" height="10.9"/>
+    <rect class="cls-4" y="28.62" width="10.9" height="10.9"/>
+    <rect class="cls-5" y="39.52" width="10.9" height="10.9"/>
+    <rect class="cls-6" y="50.42" width="10.9" height="10.9"/>
+    <rect class="cls-7" y="61.32" width="10.9" height="10.9"/>
+    <rect class="cls-8" y="72.22" width="10.9" height="10.9"/>
+    <text class="cls-9" transform="translate(13.08 25.89)">Alpha cells</text>
+    <text class="cls-9" transform="translate(13.08 36.8)">Beta cells</text>
+    <text class="cls-9" transform="translate(13.08 47.7)">Duct</text>
+    <text class="cls-9" transform="translate(13.08 58.6)">Islet of Langerhans</text>
+    <text class="cls-9" transform="translate(13.08 69.5)">Pancreatic acini</text>
+    <text class="cls-9" transform="translate(13.08 80.4)">Pancreatic acini + Duct</text>
+  </g>
+</svg>
