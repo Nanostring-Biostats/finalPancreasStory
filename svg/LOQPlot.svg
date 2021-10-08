@@ -128,9 +128,9 @@
 <polyline points='182.05,393.14 182.05,390.40 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='220.69,393.14 220.69,390.40 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
 <polyline points='259.33,393.14 259.33,390.40 ' style='stroke-width: 1.07; stroke: #FFFFFF; stroke-linecap: butt;' />
-<text transform='translate(69.27,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='62.12px' lengthAdjust='spacingAndGlyphs'>Pancreatic acini</text>
+<text transform='translate(69.27,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='42.55px' lengthAdjust='spacingAndGlyphs'>Acini cells</text>
 <text transform='translate(107.91,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='74.88px' lengthAdjust='spacingAndGlyphs'>Islet of Langerhans</text>
-<text transform='translate(146.55,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='90.25px' lengthAdjust='spacingAndGlyphs'>Pancreatic acini + Duct</text>
+<text transform='translate(146.55,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='74px' lengthAdjust='spacingAndGlyphs'>Acinus (Acini + Duct)</text>
 <text transform='translate(185.20,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='18.09px' lengthAdjust='spacingAndGlyphs'>Duct</text>
 <text transform='translate(223.84,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='38.15px' lengthAdjust='spacingAndGlyphs'>Beta cells</text>
 <text transform='translate(262.48,395.33) rotate(-90)' text-anchor='end' style='font-size: 8.80px; fill: #FFFFFF; font-family: Arial;' textLength='42.55px' lengthAdjust='spacingAndGlyphs'>Alpha cells</text>

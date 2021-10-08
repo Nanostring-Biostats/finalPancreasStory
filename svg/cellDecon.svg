@@ -599,11 +599,11 @@
     </g>
   </g>
   <line class="cls-1" x1="289.21" y1="388.96" x2="289.21" y2="136.96"/>
-  <text class="cls-24" transform="translate(274.8 450.57) rotate(90) scale(1.13 1)"><tspan class="cls-25">A</tspan><tspan x="6.47" y="0">lpha </tspan><tspan class="cls-26" x="28.29" y="0">c</tspan><tspan x="32.98" y="0">ells</tspan></text>
-  <text class="cls-24" transform="translate(274.5 363) rotate(90) scale(1.13 1)"><tspan class="cls-27">B</tspan><tspan x="5.8" y="0">eta </tspan><tspan class="cls-28" x="22.01" y="0">c</tspan><tspan x="26.7" y="0">ells</tspan></text>
-  <text class="cls-24" transform="translate(274.5 298.54) rotate(90) scale(1.13 1)"><tspan class="cls-29">D</tspan><tspan class="cls-30" x="7.11" y="0">u</tspan><tspan class="cls-31" x="12.96" y="0">c</tspan><tspan x="17.85" y="0">t</tspan></text>
-  <text class="cls-24" transform="translate(274.5 217.54) rotate(90) scale(1.13 1)"><tspan class="cls-32">A</tspan><tspan x="6.37" y="0">cini</tspan></text>
-  <text class="cls-24" transform="translate(273.61 106.85) rotate(90) scale(1.13 1)"><tspan class="cls-32">A</tspan><tspan x="6.37" y="0">cini + </tspan><tspan class="cls-33" x="32.83" y="0">D</tspan><tspan x="39.94" y="0">u</tspan><tspan class="cls-31" x="45.79" y="0">c</tspan><tspan x="50.69" y="0">t</tspan></text>
+  <text class="cls-24" transform="translate(274.8 450.57) rotate(90) scale(1.13 1)"><tspan class="cls-25">Alpha cells</tspan></text>
+  <text class="cls-24" transform="translate(274.5 363) rotate(90) scale(1.13 1)"><tspan class="cls-27">Beta cells</tspan></text>
+  <text class="cls-24" transform="translate(274.5 298.54) rotate(90) scale(1.13 1)"><tspan class="cls-29">Duct</tspan></text>
+  <text class="cls-24" transform="translate(274.5 205.54) rotate(90) scale(1.13 1)"><tspan class="cls-32">Acini cells</tspan></text>
+  <text class="cls-24" transform="translate(273.61 106.85) rotate(90) scale(1.13 1)"><tspan class="cls-32">Acini and Duct</tspan></text>
   <text class="cls-24" transform="translate(273.61 52.85) rotate(90) scale(1.13 1)">Islets</text>
   <rect class="cls-34" x="21.22" width="15.3" height="17.28"/>
   <rect class="cls-11" x="21.84" y="0.71" width="14.04" height="15.86"/>
