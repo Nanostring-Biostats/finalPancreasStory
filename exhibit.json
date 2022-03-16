@@ -1,10 +1,294 @@
-{"PixelsPerMicron":2.502,"Images": [{"Name": "i0", "Description": "", "Path": "images/pancreas-colors", "Width": 49152, "Height": 49152, "MaxLevel": 6}], "Header": "", "Rotation": 0, "Layout": {"Grid": [["i0"]]}, "Stories": [{"Name": "", "Description": "", "Waypoints": [{"Name": "Gross Pancreas Anatomy", "Description": "The pancreas is an organ of the digestive system that performs both endocrine and exocrine functions. Most of the pancreas is exocrine tissue that produces enzymes to aid in digestion, including trypsin, chymotrypsin, amylases and lipases. The exocrine tissue consists of acinar cells (plural = acini) clustered around intercalated ducts. The endocrine tissue secretes hormones (primarily insulin and glucagon) into the bloodstream to regulate blood sugar levels. The endocrine tissue is organized into islets of Langerhans which contain glucagon-secreting alpha cells and insulin-secreting beta cells.\n\nThis pancreatic tissue was visualized with antibodies to insulin (beta cells), glucagon (alpha cells), PanCK (epithelial cells) and SYTO 83 (nuclei). In parallel, the sample was molecularly profiled with the GeoMx Human Whole Transcriptome Atlas (WTA) assay.\n\nThe square on the cartoon below represents the region analyzed in this study, and the corresponding tissue image is in the center panel. You can toggle the Regions of Interest (ROIs) that were molecularly profiled by clicking on the respective data layers to make them appear on the image.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.4962, 0.4995]}, 
-{"Name": "Detailed Pancreatic Anatomy", "Description": "With GeoMx DSP, Regions of Interest (ROIs) are selected by the user and then molecularly profiled. These ROIs can be either profiled whole (i.e. geometric profiling) or subdivided based on the visible morphology markers into compartments and profiled separately (i.e. segmented profiling).\n\nIn the cartoon below, the key features of the pancreas are highlighted, and corresponding ROIs are mapped on the tissue image to the right.\n1. Alpha cell enriched (GCG+, INS-, PanCK-): Segmented\n2. Beta cell enriched (GCG-, INS+, PanCK-): Segmented\n3. Islet of Langerhans: Geometric\n4. Duct (GCG-, INS-, PanCK+): Segmented\n5. Acini cells (GCG-, INS-, PanCK-): Segmented\n6. Acinus (Acini and duct): Geometric", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 3.4616251476733084, "Pan": [0.24290894578203395, 0.6610493554791671]}, 
-{"Name": "Linking Molecular and Imaging Data", "Description": "One of the key aspects of spatial biology is the ability to link molecular and spatial (image) data. In this figure, the average number of genes detected per ROI by structure is shown.  Select a data point within the box plot to see its corresponding ROI.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481]}, 
-{"Name": "Cell type deconvolution", "Description": "Here, we are measuring the relative abundance of different cell types within each ROI using a  **[cell deconvolution algorithm](https://doi.org/10.1101/2020.08.04.235168)**. In this graph, each row is a single ROI, and each structure has a unique composition of cell types. For example, the beta cell ROIs are highly enriched in beta cells, and the alpha cell ROIs are enriched in alpha cells. The cell deconvolution matrix comes from the [**Human Cell Atlas**](https://data.humancellatlas.org/explore/projects/abe1a013-af7a-45ed-8c26-f3793c24a1f4).", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481]}, 
-{"Name": "Spatial Mapping of Gene Pathways", "Description": "Whole transcriptome profiling allows us to spatially map functional gene pathways and gene sets, as well as individual genes. This heatmap of single sample gene set enrichment (ssGSEA) shows relative expression of various gene sets in different ROIs.  There is clear differentiation between the exocrine and endocrine functions: pancreatic secretions are enriched in acini, and glucagon and insulin genes are enriched in the islets, alpha cells and beta cells.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481]}, 
-{"Name": "Differential Gene Expression", "Description": "Spatially resolving whole transcriptome data allows us to generate new hypotheses about the tissue biology. Based on biochemical profiling, we know that glucagon-secreting alpha cells and insulin-secreting beta cells play complementary roles in regulating blood sugar. WTA profiling of the alpha and beta cell ROIs reveals that the GCG (glucagon) gene in enriched in alpha cells, and the INS (insulin) and ABCC8 (insulin transport) genes are enriched in beta cells.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet"], "Zoom": 0.9661, "Pan": [0.5261, 0.481]}, 
-{"Name": "Validating Gene Expression with Protein Expression", "Description": "We explored the relationship between our data and the [**Human Protein Atlas**](https://www.proteinatlas.org) to see if the gene expression patterns we observed would also be detected at the protein level. As seen in the immunohistochemistry image below from the Human Protein Atlas, GCG is expressed at a high level in the pancreatic endocrine cells.\n\n![image](img/GCG_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/36761/123305_A_2_3.jpg)\n\nGCG transcript was observed in the islets and alpha cell enriched ROIs with a low level seen in beta cell enriched ROIs, demonstrating that the gene expression levels concur with the protein distributions. This is independent and orthogonal validation of the expression patterns for these targets.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481], "VisScatterplot": {"data": "data\\alphaCellGcgExpression.csv", "axes": {"x": "Structure", "y": "GCG Expression"}, "clusters": {"labels": "1,2,3,4,5,6", "reorder": "1,2,3,4,5,6", "colors": "D55E00,F0E442,E69F00,0072B2,56B4E9,484E4E"}}}, 
-    {"Name": "Validating Gene Expression with Protein Expression", "Description": "Next, we examined the expression of insulin protein with expression of the INS gene. In the immunohistochemistry image below, insulin protein is expressed in the beta cells within the islets of Langerhans.\n\n![image](img/INS_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/4932/115849_A_2_3.jpg)\n\nSimilarly, INS transcript was observed at a high level in the beta cells ROIs and the islet ROIs, with lower-level expression in the alpha cell enriched ROI. This is independent and orthogonal validation of the expression patterns for these targets.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481], "VisScatterplot": {"data": "data\\BetaCellINSExpression.csv", "axes": {"x": "Structure", "y": "INS Expression"}, "clusters": {"labels": "1,2,3,4,5,6", "reorder": "1,2,3,4,5,6", "colors": "D55E00,F0E442,E69F00,0072B2,56B4E9,484E4E"}}}, 
-        {"Name": "Validating Gene Expression with Protein Expression", "Description": "The CFTR gene encodes the CF Transmembrane Conductance Regulator, an anion transporter involved in pancreatic ductal secretory functions. As we observe in the immunohistochemistry image below, the protein is present only in the ductal cells.\n\n![image](img/CFTR_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/21939/169902_A_1_3.jpg)\n\nIn the GeoMx data, the gene is highly expressed in the duct cell ROIs, with lower expression in the acini+duct ROIs. This demonstrates the value of precisely targeting cells of interest to obtain the most enriched expression profiles possible.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481],  "VisScatterplot": {"data": "data\\DuctCFTRExpression.csv", "axes": {"x": "Structure", "y": "CFTR Expression"}, "clusters": {"labels": "1,2,3,4,5,6", "reorder": "1,2,3,4,5,6", "colors": "D55E00,F0E442,E69F00,0072B2,56B4E9,484E4E"}}}, 
-            {"Name": "Validating Gene Expression with Protein Expression", "Description": "The CEL gene encodes for carboxyl ester lipase, an enzyme that aids in the digestion of fats. Protein data from the Human Protein Atlas shows that CEL is expressed in acini, as seen in the immunohistochemistry image below.\n\n![image](img/CEL_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/8023/21445_A_1_3.jpg)\n\nIn the GeoMx data, CEL transcript is highly expressed in acini cell segmented ROIs and the acini+duct geometric ROIs.", "Arrows": [], "Overlays": [], "Group": "All markers", "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], "Zoom": 0.9661, "Pan": [0.5261, 0.481],  "VisScatterplot": {"data": "data\\AciniCELExpression.csv", "axes": {"x": "Structure", "y": "CEL Expression"}, "clusters": {"labels": "1,2,3,4,5,6", "reorder": "1,2,3,4,5,6", "colors": "D55E00,F0E442,E69F00,0072B2,56B4E9,484E4E"}}}]}], "Masks": [{"Path": "All-structures", "Name": "All structures", "Colors": ["ffffff"], "Channels": ["All structures"]}, {"Path": "Alpha-Cell-Enriched-Islet", "Name": "Alpha Cell Enriched Islet", "Colors": ["d55e00"], "Channels": ["Alpha Cell Enriched Islet"]}, {"Path": "Beta-Cell-Enriched-Islet", "Name": "Beta Cell Enriched Islet", "Colors": ["f0e442"], "Channels": ["Beta Cell Enriched Islet"]}, {"Path": "Duct", "Name": "Duct", "Colors": ["e69f00"], "Channels": ["Duct"]}, {"Path": "Islet", "Name": "Islet", "Colors": ["0072b2"], "Channels": ["Islet"]}, {"Path": "Acini", "Name": "Acini cells", "Colors": ["56b4e9"], "Channels": ["Acini cells"]}, {"Path": "Acini-and-Duct", "Name": "Acinus (Acini and duct)", "Colors": ["484e4e"], "Channels": ["Acinus (Acini and duct)"]}], "Groups": [{"Name": "All markers", "Path": "All-markers_0__Insulin--1__Nuclei--2__PanCK--3__Glucagon", "Colors": ["00ff00", "0000ff", "00ffff", "ff0054"], "Channels": ["Insulin", "Nuclei", "PanCK", "Glucagon"]}, {"Name": "Insulin", "Path": "Insulin_0__Insulin", "Colors": ["00ff00"], "Channels": ["Insulin"]}, {"Name": "Nuclei", "Path": "Nuclei_1__Nuclei", "Colors": ["0000ff"], "Channels": ["Nuclei"]}, {"Name": "PanCK", "Path": "PanCK_2__PanCK", "Colors": ["00ffff"], "Channels": ["PanCK"]}, {"Name": "Glucagon", "Path": "Glucagon_3__Glucagon", "Colors": ["ff0054"], "Channels": ["Glucagon"]}]}
+{"PixelsPerMicron":2.502,"Images": [{"Name": "i0", "Description": "", "Path": "images/pancreas-colors", "Width": 49152, "Height": 49152, "MaxLevel": 6}], 
+"Header": "![image](img/SOA_logo.png)", "Rotation": 0, "Layout": {"Grid": [["i0"]]}, 
+"Appendix": "For more information on NanoString GeoMx technology visit [**our website**](https://www.nanostring.com/products/geomx-digital-spatial-profiler/geomx-dsp-overview/).\n\nDetails of the performance of WTA have been [**published**](https://doi.org/10.1101/2021.09.29.462442). Minerva is an open source software package that was developed by Laboratory of Systems Pharmacology at Harvard University and is available [**here**](https://github.com/labsyspharm/minerva-story/wiki).\n\nWe would like to thank Jeremy Muhlich and John Thomas Hoffer for assistance in enabling Minerva features to support the Spatial Organ Atlas.\n\nSources:\n\n\nRashid R, Chen, YA, Hoffer J, Muhlich JL, Lin JR, Krueger R, Pfister H, Mitchell R, Santagata S, Sorger PK. (2021) Narrative online guides for the interpretation of digital-pathology images and tissue-atlas data. *Nature Biomedical Engineering*, p1-12 [https://doi.org/10.1038/s41551-021-00789-8](https://doi.org/10.1038/s41551-021-00789-8)\n\nHoffer J, Rashid R, Muhlich JL, Chen, YA, Russell D, Ruokonen J, Krueger R, Pfister H, Santagata S, Sorger PK. (2020). Minerva: a light-weight, narrative image browser for multiplexed tissue images. Journal of Open Source Software, 5(54), 2579, [https://doi.org/10.21105/joss.02579](https://doi.org/10.21105/joss.02579)\n\nIllustrations  by Dave Carlson/[CarlsonStockArt.com](https://www.carlsonstockart.com/)\n\nFOR RESEARCH USE ONLY. Not for use in diagnostic procedures.",
+"Stories": [{"Name": "", "Description": "Welcome to the [**Spatial Organ Atlas (SOA)**](https://www.nanostring.com/spatial-organ-atlas) Pancreas Demonstration.\n\nThe SOA is a database for whole transcriptome spatial profiles of functional components of tissues from human and mouse generated with the GeoMx® Digital Spatial Profiler. \nAll the data in the SOA is downloadable, including [**this pancreas sample (#001)**](https://www.nanostring.com/products/geomx-digital-spatial-profiler/spatial-organ-atlas/human-pancreas/).\n\nUsing [**Minerva**](https://github.com/labsyspharm/minerva-story/wiki), we will show you how the imaging and molecular data combine to give you a comprehensive profile of the tissue architecture and biology.\n\nClick around to explore on your own.\n\nHints:\n* Zoom and pan the image via the mouse/trackpad.\n* Open and close the left- and right-hand menus by clicking on < or >.\n* See results in the left-hand menu and click on the selectable regions to zoom to the featured area of the tissue.\n* Turn channels on and off with the right-hand menu.", 
+"Waypoints": [
+{
+    "Name": "Gross Pancreas Anatomy", 
+    "Description": "The pancreas is an organ of the digestive system that performs both endocrine and exocrine functions. Most of the pancreas is exocrine tissue that produces enzymes to aid in digestion, including trypsin, chymotrypsin, amylases and lipases. The exocrine tissue consists of acinar cells (plural = acini) clustered around intercalated ducts. The endocrine tissue secretes hormones (primarily insulin and glucagon) into the bloodstream to regulate blood sugar levels. The endocrine tissue is organized into islets of Langerhans which contain glucagon-secreting alpha cells and insulin-secreting beta cells.\n\nThis pancreatic tissue was visualized with antibodies to insulin (beta cells), glucagon (alpha cells), PanCK (epithelial cells) and SYTO 83 (nuclei). In parallel, the sample was molecularly profiled with the [**GeoMx Human Whole Transcriptome Atlas (WTA) assay**](https://www.nanostring.com/products/geomx-digital-spatial-profiler/geomx-rna-assays/geomx-whole-transcriptome-atlas/).\n\nThe square on the cartoon below represents the region analyzed in this study, and the corresponding tissue image is in the center panel. You can toggle the Regions of Interest (ROIs) that were molecularly profiled by clicking on the respective data layers to make them appear on the image.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.4962, 0.4995],
+    "Footer": "Hints:\n* Select the nuclei channel to easily see all ROIs.\n* The “All data layers” category allows you to toggle between selecting all data layers and selecting no data layers. A single click can unselect all data layers, allowing easy selection of a single data layer (If any layers are unselected, the first click will select all layers, the second click will unselect all)."
+}, 
+{
+    "Name": "Detailed Pancreas Anatomy", 
+    "Description": "With GeoMx DSP, Regions of Interest (ROIs) are selected by the user and then molecularly profiled. These ROIs can be either profiled whole (i.e. geometric profiling) or subdivided based on the visible morphology markers into compartments and profiled separately (i.e. segmented profiling).\n\nIn the cartoon below, the key features of the pancreas are highlighted, and corresponding ROIs are mapped on the tissue image to the right.\n1. Alpha cell enriched (GCG+, INS-, PanCK-): Segmented\n2. Beta cell enriched (GCG-, INS+, PanCK-): Segmented\n3. Islet of Langerhans: Geometric\n4. Duct (GCG-, INS-, PanCK+): Segmented\n5. Acini cells (GCG-, INS-, PanCK-): Segmented\n6. Acinus (Acini and duct): Geometric", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 3.4616251476733084, 
+    "Pan": [0.24290894578203395, 0.6610493554791671],
+    "Footer": "Hints:\n* Toggle the different channels to easily see all ROIs.\n* Select Alpha cell on the diagram above, then toggle between Alpha Cell Enriched and Beta Cell Enriched to see the segmentation possible with GeoMx DSP. Toggling between Insulin, Glucagon, and All markers channels will aid in visualizing.\n* Select Acinar cells on diagram above, then toggle between the Acini cells and Duct data layers to see the segmentation possible with GeoMx DSP. Toggling between PanCK and All markers channels will aid in visualizing."
+}, 
+{
+    "Name": "Linking Molecular and Imaging Data", 
+    "Description": "One of the key aspects of spatial biology is the ability to link molecular and spatial (image) data. In this figure, the average number of genes detected per ROI by structure is shown.  Select a data point within the box plot to see its corresponding ROI.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481],
+    "Footer": "Hint:\nSelect a single data point to be taken to that ROI."
+}, 
+{
+    "Name": "Cell Type Deconvolution", 
+    "Description": "Here, we are measuring the relative abundance of different cell types within each ROI using a  **[cell deconvolution algorithm](https://www.nature.com/articles/s41467-022-28020-5)**. In this graph, each row is a single ROI, and each structure has a unique composition of cell types. For example, the beta cell ROIs are highly enriched in beta cells, and the alpha cell ROIs are enriched in alpha cells. The reference cell profile matrix used in this analysis can be found [**here**](https://github.com/Nanostring-Biostats/CellProfileLibrary) and is derived from a [**Human Cell Atlas dataset**](https://data.humancellatlas.org/explore/projects/cddab57b-6868-4be4-806f-395ed9dd635a).", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481],
+    "Footer": "Hint:\nSelect a single row of the figure to be taken to that ROI in the image."
+}, 
+{
+    "Name": "Spatial Mapping of Gene Pathways", 
+    "Description": "Whole transcriptome profiling allows us to spatially map functional gene pathways and gene sets, as well as individual genes. This heatmap of single sample gene set enrichment (ssGSEA) shows relative expression of various gene sets in different ROIs.  There is clear differentiation between the exocrine and endocrine functions: pancreatic secretions are enriched in acini, and glucagon and insulin genes are enriched in the islets, alpha cells and beta cells.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481],
+    "Footer": "Hint:\nSelect a single column of the figure to be taken to that ROI in the image."
+}, 
+{
+    "Name": "Differential Gene Expression", 
+    "Description": "Spatially resolving whole transcriptome data allows us to generate new hypotheses about the tissue biology. Based on biochemical profiling, we know that glucagon-secreting alpha cells and insulin-secreting beta cells play complementary roles in regulating blood sugar. WTA profiling of the alpha and beta cell ROIs reveals that the GCG (glucagon) gene in enriched in alpha cells, and the INS (insulin) and ABCC8 (insulin transport) genes are enriched in beta cells.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481],
+    "Footer": "Hint:\nSelect the regions on the graph with the genes that are differentially expressed (in yellow and orange) to see all the ROIs where they are more highly expressed. Turning on only the nuclei channel may help you see smaller ROIs."
+}, 
+{
+    "Name": "Validating Gene Expression with Protein Expression", 
+    "Description": "We explored the relationship between our data and the [**Human Protein Atlas**](https://www.proteinatlas.org) to see if the gene expression patterns we observed would also be detected at the protein level. As seen in the immunohistochemistry image below from the Human Protein Atlas, GCG is expressed at a high level in the pancreatic endocrine cells.\n\n![image](img/GCG_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/36761/123305_A_2_3.jpg)\n\nGCG transcript was observed in the islets and alpha cell enriched ROIs with a low level seen in beta cell enriched ROIs, demonstrating that the gene expression levels concur with the protein distributions. This is independent and orthogonal validation of the expression patterns for these targets.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481], 
+    "Footer": "Hint:\nSelect an individual point on the graph to be taken to that ROI in the image.",
+    "MaskAndPan": {"config": {"view": {"continuousWidth": 400, "continuousHeight": 250}, "background": null, "numberFormat": ".0f"}, "width": "container",  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/alphaCellGcgExpression.csv"},
+        "mark": {"type": "point", "filled": true, "size": 70, "opacity": 0.85},
+        "encoding": {
+            "x": {
+                "field": "Structure",
+                "type": "quantitative",
+                "axis": {
+                    "labelExpr": "datum.label == 1 ? 'Alpha cells' : datum.label == 2 ? 'Beta cells' : datum.label == 3 ? 'Duct' : datum.label == 4 ? 'Islet of Langerhans' : datum.label == 5 ? 'Acini cells' : datum.label == 6 ? 'Acinus (Acini + Duct)' : null",
+                    "labelAngle": -90,
+                    "tickCount": 6,
+                    "grid": false
+                },
+                "scale": {"domain": [0, 7]},
+                "title": null
+            },
+            "y": {
+                "field": "GCG Normalized Expression",
+                "type": "quantitative"
+            },
+            "color": {
+                "field": "type",
+                "type": "nominal",
+                "legend": {
+                    "orient": "bottom",
+                    "direction": "vertical",
+                    "title": "Histological structure"
+                },
+                "scale": {
+                    "domain": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"],
+                    "range": ["#d55e00", "#f0e442", "#e69f00", "#0072b2", "#56b4e9", "#484e4e"]
+                }
+            },
+            "tooltip": [
+                {"field": "GCG Normalized Expression", "type": "quantitative", "format": ".0f"},
+                {"field": "type", "type": "nominal", "title": "ROI cateogry"}
+            ]
+        }
+    }
+}, 
+{
+    "Name": "Validating Gene Expression with Protein Expression", 
+    "Description": "Next, we examined the expression of insulin protein with expression of the INS gene. In the immunohistochemistry image below, insulin protein is expressed in the beta cells within the islets of Langerhans.\n\n![image](img/INS_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/4932/115849_A_2_3.jpg)\n\nSimilarly, INS transcript was observed at a high level in the beta cells ROIs and the islet ROIs, with lower-level expression in the alpha cell enriched ROI. This is independent and orthogonal validation of the expression patterns for these targets.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481], 
+    "Footer": "Hint:\nSelect an individual point on the graph to be taken to that ROI in the image.",
+    "MaskAndPan": {"config": {"view": {"continuousWidth": 400, "continuousHeight": 250}, "background": null, "numberFormat": ".0f"}, "width": "container",  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/BetaCellINSExpression.csv"},
+    "mark": {"type": "point", "filled": true, "size": 70, "opacity": 0.85},
+    "encoding": {
+        "x": {
+            "field": "Structure",
+            "type": "quantitative",
+            "axis": {
+                "labelExpr": "datum.label == 1 ? 'Alpha cells' : datum.label == 2 ? 'Beta cells' : datum.label == 3 ? 'Duct' : datum.label == 4 ? 'Islet of Langerhans' : datum.label == 5 ? 'Acini cells' : datum.label == 6 ? 'Acinus (Acini + Duct)' : null",
+                "labelAngle": -90,
+                "tickCount": 6,
+                "grid": false
+            },
+            "scale": {"domain": [0, 7]},
+            "title": null
+        },
+        "y": {
+            "field": "INS Normalized Expression",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "type",
+            "type": "nominal",
+            "legend": {
+                "orient": "bottom",
+                "direction": "vertical",
+                "title": "Histological structure"
+            },
+            "scale": {
+                "domain": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"],
+                "range": ["#d55e00", "#f0e442", "#e69f00", "#0072b2", "#56b4e9", "#484e4e"]
+            }
+        },
+        "tooltip": [
+            {"field": "INS Normalized Expression", "type": "quantitative", "format": ".0f"},
+            {"field": "type", "type": "nominal", "title": "ROI cateogry"}
+        ]}
+    }
+}, 
+{
+    "Name": "Validating Gene Expression with Protein Expression", 
+    "Description": "The CFTR gene encodes the CF Transmembrane Conductance Regulator, an anion transporter involved in pancreatic ductal secretory functions. As we observe in the immunohistochemistry image below, the protein is present only in the ductal cells.\n\n![image](img/CFTR_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/21939/169902_A_1_3.jpg)\n\nIn the GeoMx data, the gene is highly expressed in the duct cell ROIs, with lower expression in the acini+duct ROIs. This demonstrates the value of precisely targeting cells of interest to obtain the most enriched expression profiles possible.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481], 
+    "Footer": "Hint:\nSelect an individual point on the graph to be taken to that ROI in the image.",
+    "MaskAndPan": {"config": {"view": {"continuousWidth": 400, "continuousHeight": 250}, "background": null, "numberFormat": ".0f"}, "width": "container",  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/DuctCFTRExpression.csv"},
+    "mark": {"type": "point", "filled": true, "size": 70, "opacity": 0.85},
+    "encoding": {
+        "x": {
+            "field": "Structure",
+            "type": "quantitative",
+            "axis": {
+                "labelExpr": "datum.label == 1 ? 'Alpha cells' : datum.label == 2 ? 'Beta cells' : datum.label == 3 ? 'Duct' : datum.label == 4 ? 'Islet of Langerhans' : datum.label == 5 ? 'Acini cells' : datum.label == 6 ? 'Acinus (Acini + Duct)' : null",
+                "labelAngle": -90,
+                "tickCount": 6,
+                "grid": false
+            },
+            "scale": {"domain": [0, 7]},
+            "title": null
+        },
+        "y": {
+            "field": "CFTR Normalized Expression",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "type",
+            "type": "nominal",
+            "legend": {
+                "orient": "bottom",
+                "direction": "vertical",
+                "title": "Histological structure"
+            },
+            "scale": {
+                "domain": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"],
+                "range": ["#d55e00", "#f0e442", "#e69f00", "#0072b2", "#56b4e9", "#484e4e"]
+            }
+        },
+        "tooltip": [
+            {"field": "CFTR Normalized Expression", "type": "quantitative", "format": ".0f"},
+            {"field": "type", "type": "nominal", "title": "ROI cateogry"}
+        ]}
+    }
+}, 
+{
+    "Name": "Validating Gene Expression with Protein Expression", 
+    "Description": "The CEL gene encodes for carboxyl ester lipase, an enzyme that aids in the digestion of fats. Protein data from the Human Protein Atlas shows that CEL is expressed in acini, as seen in the immunohistochemistry image below.\n\n![image](img/CEL_IHC.jpg)\n\n[*Image credit: Human Protein Atlas.*](https://images.proteinatlas.org/8023/21445_A_1_3.jpg)\n\nIn the GeoMx data, CEL transcript is highly expressed in acini cell segmented ROIs and the acini+duct geometric ROIs.", 
+    "Arrows": [], 
+    "Overlays": [], 
+    "Group": "All markers", 
+    "Masks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "ActiveMasks": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"], 
+    "Zoom": 0.9661, 
+    "Pan": [0.5261, 0.481], 
+    "Footer": "Hint:\nSelect an individual point on the graph to be taken to that ROI in the image.",
+    "MaskAndPan": {"config": {"view": {"continuousWidth": 400, "continuousHeight": 250}, "background": null, "numberFormat": ".0f"}, "width": "container",  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "data/AciniCELExpression.csv"},
+    "mark": {"type": "point", "filled": true, "size": 70, "opacity": 0.85},
+    "encoding": {
+        "x": {
+            "field": "Structure",
+            "type": "quantitative",
+            "axis": {
+                "labelExpr": "datum.label == 1 ? 'Alpha cells' : datum.label == 2 ? 'Beta cells' : datum.label == 3 ? 'Duct' : datum.label == 4 ? 'Islet of Langerhans' : datum.label == 5 ? 'Acini cells' : datum.label == 6 ? 'Acinus (Acini + Duct)' : null",
+                "labelAngle": -90,
+                "tickCount": 6,
+                "grid": false
+            },
+            "scale": {"domain": [0, 7]},
+            "title": null
+        },
+        "y": {
+            "field": "CEL Normalized Expression",
+            "type": "quantitative"
+        },
+        "color": {
+            "field": "type",
+            "type": "nominal",
+            "legend": {
+                "orient": "bottom",
+                "direction": "vertical",
+                "title": "Histological structure"
+            },
+            "scale": {
+                "domain": ["Alpha Cell Enriched Islet", "Beta Cell Enriched Islet", "Duct", "Islet", "Acini cells", "Acinus (Acini and duct)"],
+                "range": ["#d55e00", "#f0e442", "#e69f00", "#0072b2", "#56b4e9", "#484e4e"]
+            }
+        },
+        "tooltip": [
+            {"field": "CEL Normalized Expression", "type": "quantitative", "format": ".0f"},
+            {"field": "type", "type": "nominal", "title": "ROI cateogry"}
+        ]}
+    }
+}]
+}
+], 
+"Masks": [
+    {"Path": "Alpha-Cell-Enriched-Islet", "Name": "Alpha Cell Enriched Islet", "Colors": ["d55e00"], "Channels": ["Alpha Cell Enriched Islet"]},
+    {"Path": "Beta-Cell-Enriched-Islet", "Name": "Beta Cell Enriched Islet", "Colors": ["f0e442"], "Channels": ["Beta Cell Enriched Islet"]}, 
+    {"Path": "Duct", "Name": "Duct", "Colors": ["e69f00"], "Channels": ["Duct"]}, 
+    {"Path": "Islet", "Name": "Islet", "Colors": ["0072b2"], "Channels": ["Islet"]}, 
+    {"Path": "Acini", "Name": "Acini cells", "Colors": ["56b4e9"], "Channels": ["Acini cells"]}, 
+    {"Path": "Acini-and-Duct", "Name": "Acinus (Acini and duct)", "Colors": ["484e4e"], "Channels": ["Acinus (Acini and duct)"]}], 
+"Groups": [
+    {"Name": "All markers", "Path": "All-markers_0__Insulin--1__Nuclei--2__PanCK--3__Glucagon", "Colors": ["00ff00", "0000ff", "00ffff", "ff0054"], "Channels": ["Insulin", "Nuclei", "PanCK", "Glucagon"]}, 
+    {"Name": "Insulin", "Path": "Insulin_0__Insulin", "Colors": ["00ff00"], "Channels": ["Insulin"]}, 
+    {"Name": "Nuclei", "Path": "Nuclei_1__Nuclei", "Colors": ["0000ff"], "Channels": ["Nuclei"]}, 
+    {"Name": "PanCK", "Path": "PanCK_2__PanCK", "Colors": ["00ffff"], "Channels": ["PanCK"]}, 
+    {"Name": "Glucagon", "Path": "Glucagon_3__Glucagon", "Colors": ["ff0054"], "Channels": ["Glucagon"]}
+]}
